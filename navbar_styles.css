@@ -1,0 +1,35 @@
+
+h1 {
+  text-align: center;
+}
+
+/* Code for navbar*/
+.nav-list {
+  margin: 0;
+  display: flex;
+  width: 100%;
+  background-color: var(--lightteal);
+  justify-content: center;
+}
+
+.list-item {
+  background-color: var(--lightteal);
+  color: var(--white);
+  padding: 25px;
+  text-decoration: none;
+}
+
+.list-item:hover {
+  background-color: var(--teal);
+}
+
+.list-item:active {
+  background-color: var(--gray4);
+}
+
+.list-item:focus {
+  outline-color: var(--gray4);
+  outline-offset: -4px;
+  outline-width: 4px;
+  outline-style: solid;
+}
