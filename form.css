@@ -1,8 +1,8 @@
 
 .form {
   max-width: 600px;
-  margin: 0 auto;
-  border: 1px solid var(--gray4);
+  margin: auto auto;
+  border: none;
   padding: 10px;
   border-radius: 10px;
 }
@@ -11,6 +11,7 @@
   margin: 40px 0;
   display: grid;
   grid-template-columns: 30% 70%;
+  align-items: start;
 }
 
 .form-element > label {
@@ -35,8 +36,18 @@
   margin-left: 10px;
 }
 
+.input {
+  width: 100%;
+  padding: 8px 16px;
+  font-size: medium;
+  border-radius: 3px;
+  border: 1px solid var(--gray4);
+  box-sizing: border-box;
+  word-wrap: break-word; /* new property added */
+}
+
 .btn {
-  border: 1px solid var(--green);
+  border: 1px solid var(--lightteal);
   padding: 10px;
   width: 49%;
   box-sizing: border-box;
@@ -46,16 +57,16 @@
 }
 
 .btn-primary {
-  background-color: var(--green);
+  background-color: var(--lightteal);
   color: var(--white);
 }
 
 .btn-secondary {
   background-color: var(--white);
-  color: var(--green);
+  color: var(--lightteal);
 }
 
 .btn:hover {
-  background-color: var(--orange);
+  background-color: var(--teal);
   color: var(--black);
 }
