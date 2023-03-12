@@ -10,4 +10,4 @@ The projects section contains three projects that I have previously worked on. E
 
 Finally the contact section contains a form that allows you to enter your name, email, and what you want to ask me. This section does not currently support submission to a server.
 
-The launched website can be found at the following link:
+The launched website can be found at the following link: https://missmoreau.github.io/
