@@ -23,7 +23,7 @@ form.addEventListener("submit", (event) => {
   });
 
   if (formEmpty) {
-    console.error("You must enter some data to submit this form");
+    alert("You must enter some data to submit this form");
     return;
   }
 
