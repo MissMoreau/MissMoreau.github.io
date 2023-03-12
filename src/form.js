@@ -36,6 +36,7 @@ form.addEventListener("submit", (event) => {
       "\nEmail: " + document.querySelector("#email").value,
       "\nMessage: " + document.querySelector("#message").value
     );
+    alert("Thank you for your message!")
   }
 
   // Clear form data
