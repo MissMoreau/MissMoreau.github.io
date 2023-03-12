@@ -28,7 +28,6 @@ information from the team I worked with and I helped train others on how to upke
 </p>
 `;
 
-
 const Pge = document.createElement("section");
 Pge.innerHTML = `
 <p><b>April 2023 – September 2023 (Future)</b></p>
