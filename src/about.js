@@ -9,7 +9,7 @@ image.alt = "headshot of Darya without filters";
 image.width = "200";
 image.height = "200";
 image.style.width = "250px";
-image.style.height = "250px"
+image.style.height = "250px";
 image.style.margin = "0 auto";
 image.style.display = "block";
 image.style.borderRadius = "50%";
@@ -27,12 +27,10 @@ Someday I hope to work in front-end design, as that is where I am most experienc
 `;
 
 const style = document.createElement("style");
-style.textContent =
-  ".description span { font-weight: bold; font-size: 1.5em}";
+style.textContent = ".description span { font-weight: bold; font-size: 1.5em}";
 
 document.head.appendChild(style);
 
 main.appendChild(image);
 main.appendChild(bio);
 document.body.appendChild(main);
-

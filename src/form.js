@@ -32,11 +32,11 @@ form.addEventListener("submit", (event) => {
     const formData = new FormData(form);
     console.log(
       "======== Form Submission ========",
-      "\Full Name: " + document.querySelector("#fullName").value,
+      "Full Name: " + document.querySelector("#fullName").value,
       "\nEmail: " + document.querySelector("#email").value,
       "\nMessage: " + document.querySelector("#message").value
     );
-    alert("Thank you for your message!")
+    alert("Thank you for your message!");
   }
 
   // Clear form data
