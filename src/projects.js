@@ -16,17 +16,17 @@ shakespearize.innerHTML = `
 
 const textBasedGame = document.createElement("section");
 textBasedGame.innerHTML = `
-<br><h2>Text Adventure</h2>
+<h2>Text Adventure</h2>
 <p>This project was not originally designed by me, but I provided updates to the code and added multi-language functionality. The goal of this code is to provide a short text-based adventure game. My goal with this project was to modify the code to make it easier to read, change how the text was shown, and add in multi-language capabilities. The game now supports English, Indonesian, Japanese, Klingon, and Quenya with the ability to add more languages.</p>
 <a href="https://github.com/MissMoreau/TextAdventure">https://github.com/MissMoreau/TextAdventure</a>
 `;
 
 const roboSnake = document.createElement("section");
 roboSnake.innerHTML = `
-<br><h2>RoboSnake</h2>
+<h2>RoboSnake</h2>
 <p>This project was also not originally designed by me, but I provided updates to the code and added unique agent functionality. The goal of this code is to give a robosnake game where the user will add in new agents for players that the AI will then run. My goal with this project was to modify the code to make it easier to read, refactor the players so that you can add more players without breaking the game, and adding documentation for user's to read and understand how they can add in their players. The game currently supports four different types of players, with the ability to add more players by a user.</p>
 <a href="https://github.com/MissMoreau/RoboSnake">https://github.com/MissMoreau/RoboSnake</a>
-<br><br>`;
+`;
 
 main.appendChild(description);
 main.appendChild(shakespearize);
