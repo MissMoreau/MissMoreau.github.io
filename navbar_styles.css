@@ -10,6 +10,7 @@ h1 {
   background-color: var(--lightteal);
   justify-content: center;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .list-item {

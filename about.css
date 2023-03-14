@@ -1,0 +1,66 @@
+/* Default styles */
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+section {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* Media queries for tablet screens */
+@media screen and (min-width: 768px) {
+  .content {
+    max-width: 750px;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/* Media queries for small desktop screens */
+@media screen and (min-width: 992px) {
+  .content {
+    max-width: 960px;
+  }
+
+  img {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+/* Media queries for large desktop screens */
+@media screen and (min-width: 1200px) {
+  .content {
+    max-width: 1140px;
+  }
+
+  img {
+    width: 400px;
+    height: 400px;
+  }
+}
