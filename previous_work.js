@@ -30,10 +30,11 @@ information from the team I worked with and I helped train others on how to upke
 
 const Pge = document.createElement("section");
 Pge.innerHTML = `
-<p><b>April 2023 – September 2023 (Future)</b></p>
-<p>Intern, Portland General Electric</p>
-<p>I have yet to start this position, but I am scheduled to start in April. I will most likely be working on smaller projects and assisting 
-other software developers with their work.</p>
+<p><b>April 2023 – September 2023</b></p>
+<p>Software Development Intern, Portland General Electric</p>
+<p>As an intern, I was tasked with creating scripts in the SolarWinds website to detect issues with controllers under PGE's domain. This 
+was to show whether or not a device was compliant with the current CIS standards and to alert if a device was non-compliant. I created scripts
+for two different types of devices, IOS and </p>
 `;
 
 const breakLine1 = document.createElement("br");
