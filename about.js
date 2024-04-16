@@ -21,9 +21,8 @@ bio.innerHTML = `
 I am a senior at PSU and have an expected graduation date of June 2024.
 Currently I am pursuing a Bachelors of Science in Computer Science. 
 I work in the IT department at PSU as a Field Services Technician when I am not on an internship. 
-Previously I have interned at Cambia Health Solutions as a Software Developer and I have an upcoming 
-internship at Portland General Electric as a Software Developer.
-Someday I hope to work in front-end design, as that is where I am most experienced.</p>
+Previously I have interned at Cambia Health Solutions as a Software Developer and at Portland General Electric as a Software Developer.
+After graduation, I plan on pursuing my masters in Computer Science.</p>
 `;
 
 const style = document.createElement("style");
