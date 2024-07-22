@@ -55,6 +55,7 @@ for two different types of devices, IOS and </p>
 const breakLine1 = document.createElement("br");
 const breakLine2 = document.createElement("br");
 const breakLine3 = document.createElement("br");
+const breakLine4 = document.createElement("br");
 
 const style = document.createElement("style");
 style.textContent =
@@ -68,4 +69,6 @@ main.appendChild(breakLine2);
 main.appendChild(Cambia);
 main.appendChild(breakLine3);
 main.appendChild(Pge);
+main.appendChild(breakLine4);
+main.appendChild(Oit_1);
 document.body.appendChild(main);
