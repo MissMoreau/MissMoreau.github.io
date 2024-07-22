@@ -18,11 +18,14 @@ const bio = document.createElement("section");
 bio.innerHTML = `
 <h2><b>It is nice to meet you!</b></h2>
 <p>My name is Darya Haines.
-I am a senior at PSU and have an expected graduation date of June 2024.
-Currently I am pursuing a Bachelors of Science in Computer Science. 
-I work in the IT department at PSU as a Field Services Technician when I am not on an internship. 
-Previously I have interned at Cambia Health Solutions as a Software Developer and at Portland General Electric as a Software Developer.
-After graduation, I plan on pursuing my masters in Computer Science.</p>
+I have a Bachelors of Computer Science, and am currently looking for full-time opportunities 
+within the Computer Science field. I have experience with working in teams as well as using both 
+functional and object-oriented languages. I am friendly and work well with others as well as being 
+a fast learner and I am eager to explore new opportunities. Previously I have interned at Cambia 
+Health Solutions as a Software Developer and at Portland General Electric as a Software Developer. 
+Between those internships I worked in the IT department at PSU as a Field Services Technician, and 
+later as a Team Lead. After graduation, I plan on pursuing my masters in Computer Science while 
+maintaining a full time position.</p>
 `;
 
 const style = document.createElement("style");
