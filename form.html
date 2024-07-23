@@ -20,47 +20,29 @@
 
         <a href="..\form.html" class="list-item">Contact</a>
       </nav>
-      <form action="" class="form">
+      <form action="https://formspree.io/f/myzgkwlb" method="POST" class="form">
         <h1>Contact Me!</h1>
-
+      
         <div class="form-element">
           <label for="fullName">Full Name: </label>
-          <input
-            class="input"
-            type="text"
-            id="fullName"
-            name="fullName"
-            minlength="4"
-          />
+          <input class="input" type="text" id="fullName" name="fullName" minlength="4" required />
         </div>
-
+      
         <div class="form-element">
           <label for="email">Email: </label>
-          <input
-            class="input"
-            type="text"
-            id="email"
-            name="email"
-            minlength="4"
-          />
+          <input class="input" type="email" id="email" name="email" minlength="4" required />
         </div>
-
+      
         <div class="form-element">
           <label for="message">Message: </label>
-          <textarea
-            class="input"
-            type="text"
-            id="message"
-            name="message"
-            minlength="4"
-          ></textarea>
+          <textarea class="input" id="message" name="message" minlength="4" required></textarea>
         </div>
-
+      
         <div class="controls">
           <input type="submit" value="Submit" class="btn btn-primary" />
           <input type="reset" value="Reset" class="btn btn-secondary" />
         </div>
-      </form>
+      </form>      
       <meta
         name="Contact Darya using this form. Enter your name, email, and what you want to ask."
       />
