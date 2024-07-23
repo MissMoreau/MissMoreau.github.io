@@ -3,9 +3,9 @@ main.classList.add("content");
 main.style.maxWidth = "600px";
 main.style.margin = "0 auto";
 
-const description = document.createElement("p");
+const description = document.createElement("h2");
 description.classList.add("description");
-description.innerHTML = `<h2>Previous Work</h2>`;
+description.innerText = "Previous Work";
 
 const Oit = document.createElement("section");
 Oit.innerHTML = `
@@ -19,7 +19,7 @@ new and then we would return the device to the client.</p>
 `;
 
 const Oit_2 = document.createElement("section");
-Oit.innerHTML = `
+Oit_2.innerHTML = `
 <p><b>October 2023 – June 2024</b></p>
 <p>Field Services Technician, Portland State University Office Of Information Technology</p>
 <p>My main responsibility as a team lead was to make sure that the appointments that people would make with our team would be assigned 
@@ -59,16 +59,16 @@ const breakLine4 = document.createElement("br");
 
 const style = document.createElement("style");
 style.textContent =
-  ".description::first-line { font-weight: bold; font-size: 1.5em}";
+  ".description::first-line { font-weight: bold; font-size: 1.5em }";
 document.head.appendChild(style);
 
 main.appendChild(description);
 main.appendChild(breakLine1);
 main.appendChild(Oit);
 main.appendChild(breakLine2);
-main.appendChild(Cambia);
+main.appendChild(Oit_2);
 main.appendChild(breakLine3);
-main.appendChild(Pge);
+main.appendChild(Cambia);
 main.appendChild(breakLine4);
-main.appendChild(Oit_1);
+main.appendChild(Pge);
 document.body.appendChild(main);
