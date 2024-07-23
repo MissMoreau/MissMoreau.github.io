@@ -26,7 +26,7 @@ Oit_2.innerHTML = `
 to an in-office technician. This way we always had people going on appointments. I also kept track of the requests we would get about 
 faulty classroom equipment and would make sure that we were on top of any work that needed to be done. I was also in charge of 
 assisting technicians with any questions they might have, and directing those issues to our escalated team should the need arise. 
-Finally, I was in charge of a spreadsheet that I helped design that kept track of issues that arose sometimes in our technicians work 
+Finally, I was in charge of a spreadsheet that I helped design that kept track of issues that arose sometimes in our technician's work 
 ethics. An example of this was if a technician would forget to close one of our requests, I would log that in the spreadsheet and close 
 the request myself. If we saw a trend from one of the technicians, I would let our student coordinators know, and we would chat with 
 that technician to see if there was anything we could do to help them remember. This spreadsheet would also help our student 
