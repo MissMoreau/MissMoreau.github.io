@@ -21,7 +21,7 @@ new and then we would return the device to the client.</p>
 const Oit_2 = document.createElement("section");
 Oit_2.innerHTML = `
 <p><b>October 2023 – June 2024</b></p>
-<p>Field Services Technician, Portland State University Office Of Information Technology</p>
+<p>Field Services Team Lead, Portland State University Office Of Information Technology</p>
 <p>My main responsibility as a team lead was to make sure that the appointments that people would make with our team would be assigned 
 to an in-office technician. This way we always had people going on appointments. I also kept track of the requests we would get about 
 faulty classroom equipment and would make sure that we were on top of any work that needed to be done. I was also in charge of 
