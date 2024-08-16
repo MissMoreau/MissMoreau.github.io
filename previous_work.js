@@ -48,8 +48,9 @@ Pge.innerHTML = `
 <p><b>April 2023 – September 2023</b></p>
 <p>Software Development Intern, Portland General Electric</p>
 <p>As an intern, I was tasked with creating scripts in the SolarWinds website to detect issues with controllers under PGE's domain. This 
-was to show whether or not a device was compliant with the current CIS standards and to alert if a device was non-compliant. I created scripts
-for two different types of devices, IOS and </p>
+was to show whether or not a CISCO device was compliant with the current CIS standards and to alert if a device was non-compliant. I created scripts
+for two different types of devices, IOS and Nexus. I also assisted in preparing the next set of devices for the project that would take place after I was 
+gone, which was for Wireless LAN Controllers.</p>
 `;
 
 const breakLine1 = document.createElement("br");
