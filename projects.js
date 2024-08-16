@@ -30,7 +30,7 @@ approach, Auditory Ace provides diverse sound exercises, encompassing simple ton
 The app's inception within the academic environment showcases the team's commitment to leveraging technology 
 for positive impact, as it empowers Cochlear Implant users to engage in targeted practice sessions, fostering 
 a richer and more nuanced auditory experience.</p>
-<a href="https://github.com/MissMoreau/RoboSnake">RoboSnake Github Repository</a>
+<a href="https://github.com/MissMoreau/Auditory-Ace">Auditory Ace Github Repository</a>
 `;
 
 const textBasedGame = document.createElement("section");
