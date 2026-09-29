@@ -10,7 +10,7 @@ description.innerText = "Previous Work";
 const Cpm = document.createElement("section");
 Cpm.innerHTML = `
 <p><b>November 2024 – Current</b></p>
-<p>IT Helpdesk Technician, Portland State University Office Of Information Technology</p>
+<p>IT Helpdesk Technician, Caring Places Management</p>
 <p>I work full-time in this position, splitting my time with 30 hours in IT and 10 hours in Data Entry every week. I handle all tickets 
 and Tier 1 support for the IT departement, and I enter invoices into a database for the Accounting Department. I troubleshoot issues 
 sent into the ticketing system, and escalate any relevant issues to Tier 2 or 3 support. I handle basic printer issues, Dell computer 
