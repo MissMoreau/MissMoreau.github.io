@@ -19,9 +19,9 @@ bio.innerHTML = `
 <h2><b>It is nice to meet you!</b></h2>
 <p>My name is Darya Haines.
 I have a Bachelors of Computer Science, and am currently looking for full-time opportunities 
-within the Information Technology field. I have experience with working in teams as well as using both 
-functional and object-oriented languages. I am friendly and work well with others as well as being 
-a fast learner and I am eager to explore new opportunities. Previously I have worked in the IT department 
+within the Information Technology field. I have experience with working in teams as well as on my own in order 
+to best assist end users with a wide variety of issues. I am friendly and work well with others as well as being 
+a fast learner and I am eager to explore new opportunities. Previously I worked in the IT department 
 at PSU as a Field Services Technician, and later as a Team Lead. Currently I work at Caring Places Management 
 as an IT Helpdesk Technician doing what I love, helping people.</p>
 `;
