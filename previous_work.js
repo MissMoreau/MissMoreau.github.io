@@ -19,7 +19,7 @@ hardware + software support, as well as basic networking and phone issues.</p>
 and unique software access. Alongside that, I also handle deactivating any employee access in a timely manner and properly handle 
 any legal holds pertaining to said accounts while followed chain of command. I manage the SAT phishing and learning assignment 
 programs deployments and on-going work. In my spare time, I keep IT documentation up to date and clear to understand. I also manage 
-the basic level of the company’s Email Filtering software</p>
+the basic level of the company’s Email Filtering software.</p>
 `;
 
 const Oit = document.createElement("section");
