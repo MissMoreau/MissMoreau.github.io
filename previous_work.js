@@ -7,6 +7,20 @@ const description = document.createElement("h2");
 description.classList.add("description");
 description.innerText = "Previous Work";
 
+const Cpm = document.createElement("section");
+Cpm.innerHTML = `
+<p><b>November 2024 – Current</b></p>
+<p>IT Helpdesk Technician, Portland State University Office Of Information Technology</p>
+<p>I work full-time in this position, splitting my time with 30 hours in IT and 10 hours in Data Entry every week. I handle all tickets 
+and Tier 1 support for the IT departement, and I enter invoices into a database for the Accounting Department. I troubleshoot issues 
+sent into the ticketing system, and escalate any relevant issues to Tier 2 or 3 support. I handle basic printer issues, Dell computer 
+hardware + software support, as well as basic networking and phone issues. Part of my job is to also handle setting up new employee 
+accounts and access, such as O365 accounts, Active Directory accounts, and unique software access. Alongside that, I also handle 
+deactivating any employee access in a timely manner and properly handle any legal holds pertaining to said accounts while followed 
+chain of command. I manage the SAT phishing and learning assignment programs deployments and on-going work. In my spare time, I keep 
+IT documentation up to date and clear to understand. I also manage the basic level of the company’s Email Filtering software</p>
+`;
+
 const Oit = document.createElement("section");
 Oit.innerHTML = `
 <p><b>October 2021 – March 2022, October 2022 - April 2023</b></p>
@@ -57,6 +71,7 @@ const breakLine1 = document.createElement("br");
 const breakLine2 = document.createElement("br");
 const breakLine3 = document.createElement("br");
 const breakLine4 = document.createElement("br");
+const breakLine5 = document.createElement("br");
 
 const style = document.createElement("style");
 style.textContent =
@@ -64,6 +79,8 @@ style.textContent =
 document.head.appendChild(style);
 
 main.appendChild(description);
+main.appendChild(breakLine5);
+main.appendChild(Cpm);
 main.appendChild(breakLine1);
 main.appendChild(Oit);
 main.appendChild(breakLine2);
